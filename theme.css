@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&display=swap');
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 100px;
+}
+
+
+h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+
+.Header {
+    padding-top: 50px;
+    margin-bottom: 170px;
+}
+
+.HeadLogo {
+    max-width: 600px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  position: relative;
+  color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+}
+a:after, a:visited:after {
+  content: '';
+  height: 15px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  background: #d10000;
+  transition: 0.2s;
+}
+a:hover:after, a:visited:hover:after {
+  width: 115%;
+}
+
+.Links {
+    margin-bottom: 200px;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: auto;
+    bottom: 0;
+    background-color: aquamarine;
+}
